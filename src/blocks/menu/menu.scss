@@ -30,6 +30,9 @@
         color: hsl(210, 10%, 33%);
         text-decoration: none;
         text-align: left;
+        &:hover {
+            color: hsl(171, 66%, 44%);
+        }
     }
     &__item:nth-child(2n) {
         margin-bottom: 0;
