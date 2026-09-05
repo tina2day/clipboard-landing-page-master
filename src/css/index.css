@@ -15,7 +15,7 @@
 }
 
 .devices {
-  margin-top: 100px;
+  margin-top: 140px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -317,11 +317,11 @@
 }
 
 .tools {
-  margin-top: 100px;
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 160px;
+  margin-bottom: 140px;
 }
 .tools__table {
   display: flex;
