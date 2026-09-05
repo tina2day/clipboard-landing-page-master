@@ -1,0 +1,60 @@
+.download {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.download__buttons {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 900px) {
+  .download__buttons {
+    flex-direction: column;
+  }
+}
+.download__button {
+  margin: 10px 6px;
+  font-family: "Bai Jamjuree";
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 15px;
+  width: 280px;
+  border-radius: 70px;
+}
+.download__button_iOS {
+  background: hsl(171, 66%, 44%);
+  border: 1px solid hsl(171, 66%, 44%);
+  border-bottom: 4px solid hsl(171, 67%, 34%);
+}
+.download__button_Mac {
+  background: hsl(233, 100%, 69%);
+  border: 1px solid hsl(233, 100%, 69%);
+  border-bottom: 4px solid hsl(233, 50%, 52%);
+}
+.download .information__title {
+  font-size: 53px;
+}
+@media (max-width: 900px) and (min-width: 750px) {
+  .download .information__title {
+    font-size: 45px;
+  }
+}
+@media (max-width: 750px) and (min-width: 320px) {
+  .download .information__title {
+    font-size: 32px;
+  }
+}
+.download .information__subtitle {
+  font-size: 24px;
+}
+@media (max-width: 900px) and (min-width: 750px) {
+  .download .information__subtitle {
+    font-size: 20px;
+  }
+}
+@media (max-width: 750px) and (min-width: 320px) {
+  .download .information__subtitle {
+    font-size: 17px;
+  }
+}/*# sourceMappingURL=download.css.map */

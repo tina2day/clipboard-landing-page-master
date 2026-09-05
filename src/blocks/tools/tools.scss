@@ -1,0 +1,46 @@
+.tools {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 160px;
+    &__table {
+        display: flex;
+        justify-content: space-between;
+        width: 86%;
+        @media (max-width: 950px) {
+                flex-direction: column;
+                align-items: center;
+        }
+    }
+    &__item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: 'Bai Jamjuree';
+            width: 32%;
+            text-align: center;
+            @media (max-width: 950px) and (min-width: 750px) {
+                width: 58vw;
+            }
+            @media (max-width: 750px) and (min-width: 320px) {
+                width: 86vw;
+            }
+    }
+    &__icon {
+        height: 50px;
+        margin-bottom: 20px;
+    }
+    &__title {
+                font-size: 22px;
+                color: hsl(210, 10%, 33%);
+                font-weight: 600;
+                margin-bottom: 0;
+            }
+            &__text {
+                font-size: 18px;
+                color: hsl(201, 11%, 66%);
+                font-weight: 400;
+                margin-bottom: 60px;
+            }
+}

@@ -1,0 +1,13 @@
+.brands {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 87%;
+    &__logo {
+        margin-bottom: 60px;
+    }
+    @media (max-width: 950px) {
+        flex-direction: column;
+    }
+}

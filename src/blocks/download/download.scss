@@ -1,0 +1,52 @@
+.download {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    &__buttons {
+        display: flex;
+        justify-content: center;
+        @media (max-width: 900px) {
+            flex-direction: column;
+        }
+    }
+    &__button {
+        margin: 10px 6px;
+        font-family: 'Bai Jamjuree';
+        color: white;
+        font-weight: 600;
+        font-size: 18px;
+        padding: 15px;
+        width: 280px;
+        border-radius: 70px;
+        &_iOS {
+            background: hsl(171, 66%, 44%);
+            border: 1px solid hsl(171, 66%, 44%);
+            border-bottom: 4px solid hsl(171, 67%, 34%);
+        }
+        &_Mac {
+            background: hsl(233, 100%, 69%);
+            border: 1px solid hsl(233, 100%, 69%);
+            border-bottom: 4px solid hsl(233, 50%, 52%);
+        }
+    }
+    .information {
+        &__title {
+            font-size: 53px;
+            @media (max-width: 900px) and (min-width: 750px) {
+                font-size: 45px;
+            }
+            @media (max-width: 750px) and (min-width: 320px) {
+                font-size: 32px;
+            }
+        }
+        &__subtitle {
+            font-size: 24px;
+            @media (max-width: 900px) and (min-width: 750px) {
+                font-size: 20px;
+            }
+            @media (max-width: 750px) and (min-width: 320px) {
+                font-size: 17px;
+            }
+        }
+    }
+}

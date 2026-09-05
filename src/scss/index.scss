@@ -1,0 +1,20 @@
+@import "../blocks/brands/brands";
+@import "../blocks/devices/devices";
+@import "../blocks/download/download";
+@import "../blocks/fonts/font";
+@import "../blocks/footer/footer";
+@import "../blocks/header/header";
+@import "../blocks/information/information";
+@import "../blocks/snippets/snippets";
+@import "../blocks/tools/tools";
+@import "../blocks/menu/menu";
+body {
+    background: white;
+    padding: 0;
+    margin: 0;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

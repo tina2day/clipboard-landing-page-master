@@ -1,0 +1,23 @@
+.devices {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.devices__picture {
+  width: 70%;
+  height: 44.5vw;
+}
+@media (max-width: 540px) and (min-width: 400px) {
+  .devices__picture {
+    width: 375px;
+    height: 238px;
+  }
+}
+@media (max-width: 400px) {
+  .devices__picture {
+    width: 95%;
+    height: 60.325vw;
+  }
+}/*# sourceMappingURL=devices.css.map */

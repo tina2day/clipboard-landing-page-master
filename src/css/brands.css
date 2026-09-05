@@ -1,0 +1,15 @@
+.brands {
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 87%;
+}
+.brands__logo {
+  margin-bottom: 60px;
+}
+@media (max-width: 950px) {
+  .brands {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=brands.css.map */

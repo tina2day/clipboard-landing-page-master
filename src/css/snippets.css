@@ -1,0 +1,106 @@
+.snippets {
+  margin-top: 140px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.snippets__content {
+  width: 100%;
+  display: flex;
+  -moz-column-gap: 130px;
+       column-gap: 130px;
+}
+@media (max-width: 900px) {
+  .snippets__content {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+  }
+}
+.snippets__computer-image {
+  margin-left: -2%;
+  width: 52%;
+  max-height: 39vw;
+}
+@media (max-width: 900px) and (min-width: 620px) {
+  .snippets__computer-image {
+    margin-left: 0;
+  }
+}
+@media (max-width: 620px) {
+  .snippets__computer-image {
+    width: 322px;
+    max-height: auto;
+    min-height: 241px;
+  }
+}
+.snippets__list {
+  margin: 10px;
+  width: 27%;
+}
+@media (max-width: 1000px) and (min-width: 900px) {
+  .snippets__list {
+    margin-top: 0;
+  }
+}
+@media (max-width: 900px) and (min-width: 620px) {
+  .snippets__list {
+    width: 50%;
+  }
+}
+@media (max-width: 620px) {
+  .snippets__list {
+    width: 86%;
+  }
+}
+.snippets__snippet {
+  font-family: "Bai Jamjuree";
+  text-align: left;
+  margin-top: 55px;
+}
+.snippets__snippet-title {
+  font-size: 26px;
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+  margin: 0;
+}
+.snippets__snippet-subtitle {
+  margin: 15px 0;
+  font-size: 18px;
+  color: hsl(201, 11%, 66%);
+  font-weight: 400;
+}
+@media (max-width: 1200px) and (min-width: 1000px) {
+  .snippets__snippet {
+    margin-top: 20px;
+  }
+  .snippets__snippet-title {
+    font-size: 24px;
+  }
+  .snippets__snippet-subtitle {
+    font-size: 17px;
+  }
+}
+@media (max-width: 1000px) and (min-width: 900px) {
+  .snippets__snippet {
+    margin-top: 0;
+  }
+  .snippets__snippet-title {
+    font-size: 22px;
+  }
+  .snippets__snippet-subtitle {
+    font-size: 17px;
+  }
+}
+@media (max-width: 900px) {
+  .snippets__snippet {
+    text-align: center;
+  }
+  .snippets__snippet-title {
+    font-size: 20px;
+  }
+  .snippets__snippet-subtitle {
+    font-size: 16px;
+  }
+}/*# sourceMappingURL=snippets.css.map */

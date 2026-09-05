@@ -1,0 +1,43 @@
+.menu {
+    display: flex;
+    align-items: center;
+    &__list {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-height: 110px;
+        column-gap: 10vw;
+        @media (max-width: 980px) {
+            flex-wrap: nowrap;
+            align-items: center;
+            max-height: max-content;
+        }
+    }
+    &__logo {
+        width: 70px;
+        height: 70px;
+        margin-right: 14vw;
+        @media (max-width: 980px) {
+            margin-right: 0;
+            margin-bottom: 30px;
+        }
+    }
+    &__item {
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-family: 'Bai Jamjuree';
+        font-size: 23px;
+        color: hsl(210, 10%, 33%);
+        text-decoration: none;
+        text-align: left;
+    }
+    &__item:nth-child(2n) {
+        margin-bottom: 0;
+        @media (max-width: 980px) {
+            margin-bottom: 20px;
+        }
+    }
+    @media (max-width: 980px) {
+        flex-direction: column;
+    }
+}
